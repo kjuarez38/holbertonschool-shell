@@ -1,2 +1,2 @@
 #!/bin/bash
-while IFS=':' read -r username x uid gid info homedir shell; do echo "User: $username | Home Directory: $homedir"; done < /etc/passwd | sort -t ':' -k 1,1
+cat /etc/passwd | awk -F: '{print $1, $6}' | sort
