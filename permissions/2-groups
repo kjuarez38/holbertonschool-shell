@@ -1,0 +1,2 @@
+#!/bin/bash
+cut /root/holbertonschool-shell/permissions 
