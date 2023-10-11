@@ -1,2 +1,2 @@
 #!/bin/bash
-foo
+env BEST=School | grep 'BEST'
